@@ -2,6 +2,10 @@
 
 Personal portfolio website for Gia Khue, an aspiring QA Tester. The site presents an introduction, testing-focused skills, project work, and contact information.
 
+## Live website
+
+Visit the portfolio at [giakhuedz2005-tech.github.io/portfolio-website](https://giakhuedz2005-tech.github.io/portfolio-website/).
+
 ## Built with
 
 - HTML5
