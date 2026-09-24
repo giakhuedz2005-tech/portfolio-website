@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/fonts/themify-icons-font/themify-icons.css">
+</head>
+<!-- Khi cốt cần phân tích thành phần của 1 trang bằng cách chia các <div> để hình dung được cấu trúc tổng quát nhất -->
+<body>
+    <div id="main">
+        <div id="header">
+            <!--Begin nav-->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li>
+                    <a href="">More</a>
+                    <ul class="subnav">
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Github</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- end of nav -->
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="ti-menu"></i>
+            </div>
+
+            <!--Begin search button-->
+            <div class="search-button">
+                <i class="ti-search"></i>
+            </div>
+            <!--End search button-->        
+
+        </div>
+
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading">Hi, I'm Gia Khue</h2>
+                <div class="text-description">Aspiring QA Tester</div>
+            </div>
+        </div>
+
+        <div id="content">  
+            <!--About section -->
+            <div id="About" class="content-section">
+                <h2 class="section-heading">About Me</h2>
+                <p class="section-sub-heading">My journey into software testing</p>
+                <p class="about-text">I am an aspiring QA Tester with a strong interest in software quality and web application testing. I enjoy exploring how systems work, analyzing requirements, identifying risks, designing test cases and reporting defects clearly. I am currently developing my knowledge of manual testing, API testing, HTML, CSS, JavaScript through personal projects such as Language Learning Hub and OrangeHRM Testing. These projects have helped me practice requirement analysis, test planning, positive and negative testing, test execution and bug reporting. My goal is to continue improving my technical knowledge, testing mindset and problem-solving skills to become a professional QA Tester.</p>
+                <div class= "row field-list">
+                    <div class=" text-center col col-third">
+                        <p class="field-names">Requirement Analysis</p>
+                        <img src="./asset/img/requirement-analysis.jpg" alt="requirement analysis" class="field-image">
+                    </div>
+                    <div class=" text-center col col-third">
+                        <p class="field-names">Test Design</p>
+                        <img src="./asset/img/test design.jpg" alt="test design" class="field-image">
+                    </div>
+
+                    <div class=" text-center col col-third">
+                        <p class="field-names">Defect Reporting</p>
+                        <img src="./asset/img/defect report.jpg" alt="defect report" class="field-image">
+                    </div>
+                </div>
+            </div>
+
+            <!--PROJECTS SECTION-->
+            <div id="Projects" class="project-section">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">MY PROJECTS</h2>
+                    <p class="section-sub-heading text-white">Projects completed during my learning journey</p>
+                    
+                    <ul class="project-list">
+                        <li>Language Learning Hub  <span class="project-status">In Progress</span></li>
+                        <li>OrangeHRM Testing <span class="project-status">Completed</span></li> 
+                        <li>HTML/CSS Portfolio <span class="project-status">In Progress</span></li>
+                    </ul>
+
+                    <div class="row project-detail-list">
+                        <div class=" col col-third">
+                            <img src="./asset/img/project html.jpg" alt="Web Portfolio" class="project-detail-image">
+                            <div class="project-content">
+                                <h3 class="project-detail-heading">Personal Portfolio Website</h3>
+                                <p class="project-detail-desc">HTML and CSS Project</p>
+                                <p class="project-detail-desc-sub">A personal portfolio website created with HTML and CSS to present my testing skills, projects and learning progress.</p>
+                                <a href="#" class="btn">View Project</a>
+                            </div>
+                        </div>
+
+                            <div class="col col-third">
+                            <img src="./asset/img/orange.png" alt="OrangeHRM" class="project-detail-image">
+                            <div class="project-content">
+                                <h3 class="project-detail-heading">OrangeHRM Candidate Testing</h3>
+                                <p class="project-detail-desc">Manual Testing Project</p>
+                                <p class="project-detail-desc-sub">A manual testing project covering candidate management functions, test case design, test execution and defect reporting.</p>
+                                <a href="#" class="btn">View Project</a>
+                            </div>
+                        </div>
+
+                            <div class="col col-third">
+                            <img src="./asset/img/learning hub.png" alt="Language Learning Hub" class="project-detail-image">
+                            <div class="project-content">
+                                <h3 class="project-detail-heading">Language Learning Hub Testing</h3>
+                                <p class="project-detail-desc">Personal Testing Project</p>
+                                <p class="project-detail-desc-sub">A testing project for an AI-assisted flashcard web app, covering requirement analysis, test planning, functional, API testing, database verification, test execution and defect reporting.</p>
+                                <a href="https://github.com/giakhuedz2005-tech/Language-learning-hub-for-quizz" class="btn" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--CONTACT SECTION-->
+            <div id="Contact" class="content-section">
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-sub-heading">Get in touch with me</p>
+
+                <div class="row contact-content">
+                    <div class="col col-half contact-info">
+                        <p><i class="ti-location-pin"></i>Hanoi, Vietnam</p>
+                        <p><i class="ti-mobile"></i>+84 944261155</p>
+                        <p><i class="ti-email"></i>giakhuetester@gmail.com</p>
+                    </div>  
+                    <div class="col col-half contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half">
+                                    <input type="text" name="" placeholder="Your Name" required id="" class="form-control">
+                                </div>
+                                <div class="col col-half">
+                                    <input type="email" name="" placeholder="Your Email" required id="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" name="" placeholder="Your Message" required id="" class="form-control">
+                                </div>
+                            </div>
+                            <input class="form-submit-btn mt-16" type="submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-section">
+                <img src="./asset/img/map.jpg" alt="map">
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="socials-list">
+                <a href="https://www.facebook.com/khuegianguyen30"><i class="ti-facebook"></i></a>
+                <a href="https://www.instagram.com/gkhue0505/"><i class="ti-instagram"></i></a>
+                <a href="https://www.linkedin.com/feed/"><i class="ti-linkedin"></i></a>  
+            </div>     
+            <p class="copyright">Powered by <a href="">w3.css</a></p>  
+        </div>
+    </div>
+    <script>
+        const header = document.getElementById('header');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.querySelectorAll('#nav > li > a');
+
+        mobileMenu.addEventListener('click', function () {
+            header.classList.toggle('mobile-open');
+        });
+
+        navLinks.forEach(function (link) {
+            link.addEventListener('click', function () {
+                header.classList.remove('mobile-open');
+            });
+        });
+    </script>
+</body>
+</html>
